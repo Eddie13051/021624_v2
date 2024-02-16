@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  background-image: url(/images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  min-height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.task-area {
+}
+
+.task-tabs {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid lightgray;
+  position: relative;
+}
+
+.task-tabs div {
+  padding: 1em;
+}
+
+#under-line {
+  height: 4px;
+  background-color: pink;
+  position: absolute;
+  width: 0px;
+  left: 0px;
+  top: 0px;
+  padding: 0px;
+  transition: 0.5s;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: 1px solid lightgray;
+}
+
+.task-done {
+  text-decoration: line-through;
+}
+
+.task-tabs div {
+  cursor: pointer;
+}
+
+#all {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 500;
+}
+#notdone {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#done {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h1 {
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#add-button {
+  color: white;
+  border-radius: 50px;
+  border-style: double;
+  background-color: rgb(58, 126, 75);
+}
+
+.button {
+  background-color: rgb(236, 159, 114);
+  border-style: double;
+  color: white;
+}
+
+.input-area {
+  margin: 10px;
+}
